@@ -39,7 +39,7 @@ jobs:
     - name: Test
       run: |
         source venv/bin/activate
-        python main.py -i "Deep Learning" -i "Machine Learning" -i "GPT-2 Model"
+        python main.py -i "Deep Learning" -i "Machine Learning" -i "GPT-2 Model" -i "What is Machine Learning?"
     - name: Test Again - No Download
       run: |
         source venv/bin/activate
